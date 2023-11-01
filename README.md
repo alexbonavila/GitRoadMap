@@ -39,12 +39,14 @@ It is not intended to be a practical guide to GIT and it is not intended to foll
 - ✅ **git log**: Displays the entire commit history using the default format.
 - ✅ **git log --oneline**: Condenses each commit to a single line.
 - ❌ **git rm [file]**: Deletes the file from your working directory and stages the deletion.
-- ❌ **git branch**: Lists all the branches in your repo.
+- ✅ **git branch**: Lists all the branches in your repo.
+- ✅ **git branch -M main**: Rename the current branch by default "master" to "main"
 - ❌ **git checkout [branch-name]**: Switches to the specified branch and updates the working directory.
 - ❌ **git merge [branch]**: Merges the specified branch’s history into the current branch.
 - ❌ **git pull [Repository Link]**: Fetches and merges changes on the remote server to your working directory.
 - ✅ **git push [alias] [branch]**: Transmits local branch commits to the remote repository branch.
 - ✅ **git remote -v**: Lists all the remote connections you have to other repositories.
+- ✅ **git remote add [alias] [Repository Link]**: Adds a new remote repository to local repository
 
 ## Intermediate Commands
 TODO

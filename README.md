@@ -41,6 +41,7 @@ It is not intended to be a practical guide to GIT and it is not intended to foll
 - ✅ **git rm [file]**: Deletes the file from your working directory and stages the deletion.
 - ✅ **git branch**: Lists all the branches in your repo.
 - ✅ **git branch -M main**: Rename the current branch by default "master" to "main"
+- ✅ **git branch [branch-name]**: Adds new branch
 - ❌ **git checkout [branch-name]**: Switches to the specified branch and updates the working directory.
 - ❌ **git merge [branch]**: Merges the specified branch’s history into the current branch.
 - ❌ **git pull [Repository Link]**: Fetches and merges changes on the remote server to your working directory.

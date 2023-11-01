@@ -38,7 +38,7 @@ It is not intended to be a practical guide to GIT and it is not intended to foll
 - ❌ **git diff --staged (or --cached)**: Shows the differences between the staged files and the latest version present.
 - ✅ **git log**: Displays the entire commit history using the default format.
 - ✅ **git log --oneline**: Condenses each commit to a single line.
-- ❌ **git rm [file]**: Deletes the file from your working directory and stages the deletion.
+- ✅ **git rm [file]**: Deletes the file from your working directory and stages the deletion.
 - ✅ **git branch**: Lists all the branches in your repo.
 - ✅ **git branch -M main**: Rename the current branch by default "master" to "main"
 - ❌ **git checkout [branch-name]**: Switches to the specified branch and updates the working directory.

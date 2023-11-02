@@ -62,7 +62,7 @@ It is not intended to be a practical guide to GIT and it is not intended to foll
 - ❌ **git fetch [alias]**: Downloads all the changes from the remote repository, but doesn't integrate them into your head.
 - ✅ **git cherry-pick [commit]**: Applies the changes introduced by some existing commits.
 - ✅ **git blame [file]**: Shows what revision and author last modified each line of a file.
-- ❌ **git bisect**: Use binary search to find the commit that introduced a bug.
+- ✅ **git bisect**: Use binary search to find the commit that introduced a bug.
 
 ## Advanced Commands
 - ❌ **git rebase -i [commit]**: Interactively rebase from the specified commit. This is useful for cleaning up a messy history.

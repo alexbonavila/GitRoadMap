@@ -69,7 +69,7 @@ It is not intended to be a practical guide to GIT and it is not intended to foll
 - ✅ **git reflog**: Shows a log of changes to the local repository's HEAD.
 - ✅ **git shortlog**: Summarizes git log output.
 - ✅ **git show [commit]**: Shows various types of objects, such as commits, tags, and more.
-- ❌ **git tag [commitID]**: Used to give tags to specified commits.
+- ✅ **git tag [tagID] [commitID]**: Used to give tags to specified commits.
 - ❌ **git rev-parse**: Used to parse Git revision specifications.
 - ❌ **git submodule add [url] [path]**: Add a Git repository as a submodule at the specified path.
 - ✅ **git gc**: Clean up unnecessary files and optimize the local repository.

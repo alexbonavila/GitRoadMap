@@ -6,6 +6,7 @@
   - [Intermediate Commands](#intermediate-commands)
   - [Advanced Commands](#advanced-commands)
   - [GitHub](#github)
+  - [GitKraken Client](#gitkraken-client)
   - [GitLab](#gitlab)
 - [Markdown](#markdown)
 - [Bibliography](#bibliography)
@@ -50,7 +51,6 @@ It is not intended to be a practical guide to GIT and it is not intended to foll
 - ✅ **git remote add [alias] [Repository Link]**: Adds a new remote repository to local repository
 
 ## Intermediate Commands
-TODO
 - ✅ **git stash**: Temporarily stores all modified tracked files.
 - ✅ **git stash pop**: Restores the most recently stashed files.
 - ✅ **git stash list**: Lists all stashed changesets.
@@ -61,11 +61,10 @@ TODO
 - ✅ **git rebase [branch]**: Applies your branch's commits on top of another base branch.
 - ❌ **git fetch [alias]**: Downloads all the changes from the remote repository, but doesn't integrate them into your head.
 - ✅ **git cherry-pick [commit]**: Applies the changes introduced by some existing commits.
-- ❌ **git blame [file]**: Shows what revision and author last modified each line of a file.
+- ✅ **git blame [file]**: Shows what revision and author last modified each line of a file.
 - ❌ **git bisect**: Use binary search to find the commit that introduced a bug.
 
 ## Advanced Commands
-TODO
 - ❌ **git rebase -i [commit]**: Interactively rebase from the specified commit. This is useful for cleaning up a messy history.
 - ❌ **git reflog**: Shows a log of changes to the local repository's HEAD.
 - ❌ **git shortlog**: Summarizes git log output.
@@ -82,6 +81,8 @@ TODO
 ## GitHub
 - Fork third party project
   - Forked laravel official repository: https://github.com/alexbonavila/laravel
+
+## GitKraken Client
 
 ## GitLab
 

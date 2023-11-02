@@ -55,9 +55,9 @@ TODO
 - ✅ **git stash pop**: Restores the most recently stashed files.
 - ✅ **git stash list**: Lists all stashed changesets.
 - ✅ **git stash drop**: Discards the most recently stashed changeset.
-- ❌ **git reset [file]**: Unstages the file, but preserves its contents.
-- ❌ **git reset [commit]**: Undoes all commits after [commit], preserving changes locally.
-- ❌ **git reset --hard [commit]**: Discards all history and changes back to the specified commit.
+- ✅ **git reset [file]**: Unstages the file, but preserves its contents.
+- ✅ **git reset [commit]**: Undoes all commits after [commit], preserving changes locally.
+- ✅ **git reset --hard [commit]**: Discards all history and changes back to the specified commit.
 - ❌ **git rebase [branch]**: Applies your branch's commits on top of another base branch.
 - ❌ **git fetch [alias]**: Downloads all the changes from the remote repository, but doesn't integrate them into your head.
 - ❌ **git cherry-pick [commit]**: Applies the changes introduced by some existing commits.

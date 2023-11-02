@@ -51,10 +51,10 @@ It is not intended to be a practical guide to GIT and it is not intended to foll
 
 ## Intermediate Commands
 TODO
-- ❌ **git stash**: Temporarily stores all modified tracked files.
-- ❌ **git stash pop**: Restores the most recently stashed files.
-- ❌ **git stash list**: Lists all stashed changesets.
-- ❌ **git stash drop**: Discards the most recently stashed changeset.
+- ✅ **git stash**: Temporarily stores all modified tracked files.
+- ✅ **git stash pop**: Restores the most recently stashed files.
+- ✅ **git stash list**: Lists all stashed changesets.
+- ✅ **git stash drop**: Discards the most recently stashed changeset.
 - ❌ **git reset [file]**: Unstages the file, but preserves its contents.
 - ❌ **git reset [commit]**: Undoes all commits after [commit], preserving changes locally.
 - ❌ **git reset --hard [commit]**: Discards all history and changes back to the specified commit.

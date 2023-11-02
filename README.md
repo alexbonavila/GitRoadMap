@@ -65,7 +65,7 @@ It is not intended to be a practical guide to GIT and it is not intended to foll
 - ✅ **git bisect**: Use binary search to find the commit that introduced a bug.
 
 ## Advanced Commands
-- ❌ **git rebase -i [commit]**: Interactively rebase from the specified commit. This is useful for cleaning up a messy history.
+- ✅ **git rebase -i [commit]**: Interactively rebase from the specified commit. This is useful for cleaning up a messy history.
 - ✅ **git reflog**: Shows a log of changes to the local repository's HEAD.
 - ✅ **git shortlog**: Summarizes git log output.
 - ✅ **git show [commit]**: Shows various types of objects, such as commits, tags, and more.
@@ -76,8 +76,8 @@ It is not intended to be a practical guide to GIT and it is not intended to foll
 - ✅ **git gc**: Clean up unnecessary files and optimize the local repository.
 - ✅ **git fsck**: Does an integrity check of the Git file system, identifying corrupted objects.
 - ✅ **git archive**: Creates an archive of the specified format containing the tree structure for a named commit.
-- ❌ **git rebase --continue/--abort/--skip**: Continue, abort, or skip a rebase after resolving conflicts.
-- ❌ **git filter-branch**: Applies a filter to each commit in a specified branch.
+- ✅ **git rebase --continue/--abort/--skip**: Continue, abort, or skip a rebase after resolving conflicts.
+- ✅ **git filter-branch**: Applies a filter to each commit in a specified branch.
 
 ## GitHub
 - Fork third party project

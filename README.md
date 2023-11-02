@@ -44,7 +44,7 @@ It is not intended to be a practical guide to GIT and it is not intended to foll
 - ✅ **git branch [branch-name]**: Adds new branch
 - ✅ **git checkout [branch-name]**: Switches to the specified branch and updates the working directory.
 - ✅ **git merge [branch]**: Merges the specified branch’s history into the current branch.
-- ❌ **git pull [Repository Link]**: Fetches and merges changes on the remote server to your working directory.
+- ✅ **git pull [Repository Link]**: Fetches and merges changes on the remote server to your working directory.
 - ✅ **git push [alias] [branch]**: Transmits local branch commits to the remote repository branch.
 - ✅ **git remote -v**: Lists all the remote connections you have to other repositories.
 - ✅ **git remote add [alias] [Repository Link]**: Adds a new remote repository to local repository

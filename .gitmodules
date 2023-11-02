@@ -1,0 +1,3 @@
+[submodule "AdvancedCommands/laravel"]
+	path = AdvancedCommands/laravel
+	url = git@github.com:alexbonavila/laravel.git

@@ -1,2 +1,2 @@
 Test Branch File
-ForcinG conFlict frOm local
+Force conflict

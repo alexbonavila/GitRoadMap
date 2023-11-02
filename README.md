@@ -34,8 +34,8 @@ It is not intended to be a practical guide to GIT and it is not intended to foll
 - ✅ **git status**: Shows the status of changes as untracked, modified, or staged.
 - ✅ **git config --global user.name "[name]"**: Sets the name that will be attached to your commits and tags.
 - ✅ **git config --global user.email "[email address]"**: Sets the email you want attached to your commit transactions.
-- ❌ **git diff**: Shows the file differences not yet staged.
-- ❌ **git diff --staged (or --cached)**: Shows the differences between the staged files and the latest version present.
+- ✅ **git diff**: Shows the file differences not yet staged.
+- ✅ **git diff --staged (or --cached)**: Shows the differences between the staged files and the latest version present.
 - ✅ **git log**: Displays the entire commit history using the default format.
 - ✅ **git log --oneline**: Condenses each commit to a single line.
 - ✅ **git rm [file]**: Deletes the file from your working directory and stages the deletion.
@@ -43,7 +43,7 @@ It is not intended to be a practical guide to GIT and it is not intended to foll
 - ✅ **git branch -M main**: Rename the current branch by default "master" to "main"
 - ✅ **git branch [branch-name]**: Adds new branch
 - ✅ **git checkout [branch-name]**: Switches to the specified branch and updates the working directory.
-- ❌ **git merge [branch]**: Merges the specified branch’s history into the current branch.
+- ✅ **git merge [branch]**: Merges the specified branch’s history into the current branch.
 - ❌ **git pull [Repository Link]**: Fetches and merges changes on the remote server to your working directory.
 - ✅ **git push [alias] [branch]**: Transmits local branch commits to the remote repository branch.
 - ✅ **git remote -v**: Lists all the remote connections you have to other repositories.

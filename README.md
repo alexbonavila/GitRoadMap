@@ -88,8 +88,35 @@ It is not intended to be a practical guide to GIT and it is not intended to foll
 ## GitLab
 
 
-# Markdown
+## Markdown
+The following code are Markdown structures that I do not usually use.
 
+- Ordered list
+
+1. Item 1
+2. Item 2
+3. Item 3
+   1. Item i
+   2. Item ii
+
+- Blockquotes
+
+> We're living the future so
+> the present is our past.
+
+- Inline Code
+
+I think you should use an `<addr>` element here instead.
+
+- Syntax Highlighted Code Block
+
+```javascript
+function fancyAlert(arg) {
+  if (arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
 
 # Bibliography
 - https://dev.to/charalambosioannou/getting-started-with-git-and-github-a-simple-roadmap-lfn

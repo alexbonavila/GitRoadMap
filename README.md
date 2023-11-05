@@ -79,6 +79,10 @@ It is not intended to be a practical guide to GIT and it is not intended to foll
 - ✅ **git rebase --continue/--abort/--skip**: Continue, abort, or skip a rebase after resolving conflicts.
 - ✅ **git filter-branch**: Applies a filter to each commit in a specified branch.
 
+## GitFlow
+- **git flow init**: Configure the git flow extension
+- 
+
 ## GitHub
 - Fork third party project
   - Forked laravel official repository: https://github.com/alexbonavila/laravel
@@ -123,3 +127,4 @@ function fancyAlert(arg) {
 - https://git-scm.com/docs/git
 - https://git-scm.com/docs
 - https://docs.github.com/es
+- https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow

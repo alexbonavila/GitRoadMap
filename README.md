@@ -80,8 +80,9 @@ It is not intended to be a practical guide to GIT and it is not intended to foll
 - ✅ **git filter-branch**: Applies a filter to each commit in a specified branch.
 
 ## GitFlow
-- **git flow init**: Configure the git flow extension
-- 
+- ✅ **git flow init**: Configure the git flow extension
+- ✅ **git branch develop**: 
+- ✅ **git push -u origin develop**: 
 
 ## GitHub
 - Fork third party project

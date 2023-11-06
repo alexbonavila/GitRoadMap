@@ -100,6 +100,10 @@ done
 
 ## GitKraken Client
 
+Although I feel very comfortable with the GIT Cli, I have set up GitKraken to try it.
+
+![Final Execution](/sources/screenshots/GitKraken.png)
+
 ## Markdown
 The following code are Markdown structures that I do not usually use.
 

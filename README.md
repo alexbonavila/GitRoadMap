@@ -90,8 +90,7 @@ done
 - ✅ **git branch develop**: Create develop branch for staging code
 - ✅ **git push -u origin develop**: Upload branch to VCS Remote (GitHub)
 - ✅ **git flow [type_branch] start [branch_name]**: Create new branch with gitflow for featuring hotfix etc
-- ✅ **git flow [type_branch] finish [branch_name]**: Close the branch 
-- 
+- ✅ **git flow [type_branch] finish [branch_name]**: Close the branch
 
 ## GitHub
 - Fork third party project

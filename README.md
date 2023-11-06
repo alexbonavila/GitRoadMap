@@ -78,19 +78,28 @@ It is not intended to be a practical guide to GIT and it is not intended to foll
 - ✅ **git archive**: Creates an archive of the specified format containing the tree structure for a named commit.
 - ✅ **git rebase --continue/--abort/--skip**: Continue, abort, or skip a rebase after resolving conflicts.
 - ✅ **git filter-branch**: Applies a filter to each commit in a specified branch.
+- ✅ Upload branches with script (That's not the bet practice but is just for test):
+```bash
+for branch in $(git branch | cut -c 3-); do
+    git push origin $branch
+done
+```
 
 ## GitFlow
-- **git flow init**: Configure the git flow extension
+- ✅ **git flow init**: Configure the git flow extension
+- ✅ **git branch develop**: Create develop branch for staging code
+- ✅ **git push -u origin develop**: Upload branch to VCS Remote (GitHub)
+- ✅ **git flow [type_branch] start [branch_name]**: Create new branch with gitflow for featuring hotfix etc
+- ✅ **git flow [type_branch] finish [branch_name]**: Close the branch 
 - 
 
 ## GitHub
 - Fork third party project
   - Forked laravel official repository: https://github.com/alexbonavila/laravel
+- Git merge and Pull Request
+- Branch protection
 
 ## GitKraken Client
-
-## GitLab
-
 
 ## Markdown
 The following code are Markdown structures that I do not usually use.

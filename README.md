@@ -5,9 +5,9 @@
   - [Basic Commands](#basic-commands)
   - [Intermediate Commands](#intermediate-commands)
   - [Advanced Commands](#advanced-commands)
+  - [GitFlow](#gitflow)
   - [GitHub](#github)
   - [GitKraken Client](#gitkraken-client)
-  - [GitLab](#gitlab)
 - [Markdown](#markdown)
 - [Bibliography](#bibliography)
 
